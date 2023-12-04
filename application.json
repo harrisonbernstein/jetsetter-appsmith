@@ -1,8 +1,28 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "View Flights",
+      "isDefault": false
+    },
+    {
+      "id": "Create Booking",
+      "isDefault": false
+    },
+    {
+      "id": "Schedule Flights",
+      "isDefault": false
+    },
+    {
+      "id": "View Schedule",
+      "isDefault": false
+    },
+    {
+      "id": "Schedule Crew",
+      "isDefault": false
     }
   ],
   "viewMode": false,
