@@ -42,8 +42,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T21:11:50Z"
+    "userPermissions": []
   },
   "id": "View Flights_get_airports",
   "deleted": false,
