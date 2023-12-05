@@ -10,7 +10,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 28,
+    "bottomRow": 23,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.671875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 14,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,7 +32,7 @@
     "text": "WELCOME TO JETSETTER",
     "key": "ceo6zh11pv",
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 51,
     "backgroundColor": "#93c5fd",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 28,
+    "originalBottomRow": 23,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }
