@@ -62,8 +62,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T21:12:13Z"
+    "userPermissions": []
   },
   "id": "Passenger Info_Update_passenger",
   "deleted": false,
