@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "View Schedule",
-    "slug": "view-schedule",
+    "name": "View Crew Schedule",
+    "slug": "view-crew-schedule",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 450,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -25,9 +25,33 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "View Crew Schedule_get_crew",
+              "name": "get_crew",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "View Crew Schedule_get_crew_member_assignments",
+              "name": "get_crew_member_assignments",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Select1.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "View Schedule",
+        "id": "View Crew Schedule",
         "deleted": false,
         "policies": [],
         "userPermissions": []
