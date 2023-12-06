@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{scheduleFlight.run({\n //\"key\": \"value\",\n});}}",
+    "onSubmit": "{{scheduleFlight.run({\n  // \"key\": \"value\",\n}).then(() => {\n  showAlert('Your flight has been added!', 'success');\n  // \"key\": \"value\",\n}).catch(() => {\n  showAlert('Your flight has not been added', 'error');\n  // \"key\": \"value\",\n});}}",
     "topRow": 11,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -136,7 +136,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 74,
+    "originalBottomRow": 89,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -347,7 +347,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
     "bottomRow": 89,
     "fieldLimitExceeded": false,
