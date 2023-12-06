@@ -45,6 +45,10 @@
       "isDefault": false
     },
     {
+      "id": "Schedule Flight",
+      "isDefault": false
+    },
+    {
       "id": "scheduleFlight2",
       "isDefault": false
     }
