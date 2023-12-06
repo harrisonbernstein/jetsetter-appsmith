@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api3",
+    "name": "get_crew",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:8080/airports"
+        "url": "web:4000/cm/crew-members"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "View Flights",
+    "pageId": "Crew Management",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,9 +45,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T23:12:53Z"
   },
-  "id": "View Flights_Api3",
+  "id": "Crew Management_get_crew",
   "deleted": false,
-  "gitSyncId": "656d1b637f0ed23b48c70e83_656e3a387f0ed23b48c70ea1"
+  "gitSyncId": "656fae32f11fc226f60b15d4_656fae75f11fc226f60b15ed"
 }
