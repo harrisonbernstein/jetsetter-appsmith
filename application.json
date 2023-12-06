@@ -35,6 +35,10 @@
     {
       "id": "Add Crew Member",
       "isDefault": false
+    },
+    {
+      "id": "Edit Flights",
+      "isDefault": false
     }
   ],
   "viewMode": false,
