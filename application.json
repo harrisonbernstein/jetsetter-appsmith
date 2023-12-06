@@ -43,6 +43,10 @@
     {
       "id": "Edit Flights",
       "isDefault": false
+    },
+    {
+      "id": "scheduleFlight2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
