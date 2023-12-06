@@ -27,6 +27,14 @@
     {
       "id": "Passenger Info",
       "isDefault": false
+    },
+    {
+      "id": "Crew Management",
+      "isDefault": false
+    },
+    {
+      "id": "Add Crew Member",
+      "isDefault": false
     }
   ],
   "viewMode": false,
