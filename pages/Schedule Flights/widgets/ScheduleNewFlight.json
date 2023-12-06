@@ -36,7 +36,8 @@
         {"key": "schema.__root_schema__.children.aircraft.defaultValue"},
         {"key": "schema.__root_schema__.children.managerID.defaultValue"},
         {"key": "schema.__root_schema__.children.managerID.accentColor"},
-        {"key": "schema.__root_schema__.children.managerID.borderRadius"}
+        {"key": "schema.__root_schema__.children.managerID.borderRadius"},
+        {"key": "schema.__root_schema__.children.aircraft.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -248,7 +249,7 @@
                 "isRequired": false,
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.aircraft))(ScheduleNewFlight.sourceData, ScheduleNewFlight.formData, ScheduleNewFlight.fieldState)}}",
-                "accentColor": "#22c55e",
+                "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                 "dataType": "string",
                 "accessor": "aircraft",
                 "isVisible": true,
@@ -258,7 +259,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "labelTextColor": "#15803d",
+                "labelTextColor": "#71717a",
                 "position": 7,
                 "isDisabled": false,
                 "sourceData": "",
