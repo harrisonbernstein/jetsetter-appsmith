@@ -131,7 +131,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 64,
+    "originalBottomRow": 61,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -281,7 +281,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 64,
+    "bottomRow": 61,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Edit {{Select1.selectedOptionLabel || \"Crew Member\"}}'s' Info",
