@@ -42,7 +42,7 @@
     "hideCard": false,
     "mobileRightColumn": 41,
     "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
     "sourceData": "{{get_crew.data}}",
     "key": "3vkne3jjxt",
@@ -60,5 +60,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{get_crew_member_assignments.run()}}",
     "minDynamicHeight": 4
 }
