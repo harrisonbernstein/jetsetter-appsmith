@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Create Booking",
-    "slug": "create-booking",
+    "name": "View Crew Schedule",
+    "slug": "view-crew-schedule",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 450,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create Booking_get_passengers",
-              "name": "get_passengers",
+              "id": "View Crew Schedule_get_crew",
+              "name": "get_crew",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -38,18 +38,20 @@
           ],
           [
             {
-              "id": "Create Booking_get_flights",
-              "name": "get_flights",
+              "id": "View Crew Schedule_get_crew_member_assignments",
+              "name": "get_crew_member_assignments",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Select1.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Create Booking",
+        "id": "View Crew Schedule",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -60,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d1b637f0ed23b48c70e83_656e322e7f0ed23b48c70e92"
+  "gitSyncId": "656d1b637f0ed23b48c70e83_656e32317f0ed23b48c70e98"
 }

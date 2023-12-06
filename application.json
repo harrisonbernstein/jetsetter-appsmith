@@ -17,7 +17,7 @@
       "isDefault": false
     },
     {
-      "id": "View Schedule",
+      "id": "View Crew Schedule",
       "isDefault": false
     },
     {
@@ -30,6 +30,18 @@
     },
     {
       "id": "Airline Manager Page",
+      "isDefault": false
+    },
+    {
+      "id": "Crew Management",
+      "isDefault": false
+    },
+    {
+      "id": "Add Crew Member",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Flights",
       "isDefault": false
     }
   ],

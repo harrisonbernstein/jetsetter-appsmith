@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "View Flights",
+    "pageId": "Edit Flights",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -49,7 +49,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-05T23:07:29Z"
   },
-  "id": "View Flights_get_flights",
+  "id": "Edit Flights_get_flights",
   "deleted": false,
-  "gitSyncId": "656facd46f513c1825b20848_656fad316f513c1825b2085a"
+  "gitSyncId": "656fd31f06028a596f51d138_656fd34606028a596f51d15d"
 }

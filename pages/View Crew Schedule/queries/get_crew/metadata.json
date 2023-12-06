@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_flights",
+    "name": "get_crew",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/f/flights"
+        "url": "web:4000/cm/crew-members"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "View Flights",
+    "pageId": "View Crew Schedule",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T23:07:29Z"
+    "createdAt": "2023-12-06T17:03:06Z"
   },
-  "id": "View Flights_get_flights",
+  "id": "View Crew Schedule_get_crew",
   "deleted": false,
-  "gitSyncId": "656facd46f513c1825b20848_656fad316f513c1825b2085a"
+  "gitSyncId": "6570a91b4292c6661ce8c963_6570a94a4292c6661ce8c987"
 }
