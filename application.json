@@ -13,10 +13,6 @@
       "isDefault": false
     },
     {
-      "id": "Schedule Flights",
-      "isDefault": false
-    },
-    {
       "id": "View Crew Schedule",
       "isDefault": false
     },
@@ -46,10 +42,6 @@
     },
     {
       "id": "Schedule Flight",
-      "isDefault": false
-    },
-    {
-      "id": "scheduleFlight2",
       "isDefault": false
     }
   ],
