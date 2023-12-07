@@ -1,0 +1,14 @@
+{
+	"originAirport":"{{getoriginAirport.selectedOptionValue}}",
+	"originGate":"{{chooseoriginGate.selectedOptionValue}}",
+	"destinationAirport":"{{getdestinationAirport.selectedOptionValue}}",
+	"destinationGate":"{{choosedestinationGate.selectedOptionValue}}",
+	"takeOffTime":"{{takeOffTime.text}}",
+	"landingTime":"{{landingTime.text}}",
+	"status": "on time",
+	"managerID":{{ManagerID.text}},
+	"aircraft":{{aircraft.text}},
+	"duration":"{{duration.text}}"
+}
+
+

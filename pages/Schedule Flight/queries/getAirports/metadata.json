@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_all_passengers",
+    "name": "getAirports",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/p/passengers"
+        "url": "web:4000/a/airports"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Passenger Info",
+    "pageId": "Schedule Flight",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T23:49:06Z"
+    "createdAt": "2023-12-06T16:50:08Z"
   },
-  "id": "Passenger Info_Get_all_passengers",
+  "id": "Schedule Flight_getAirports",
   "deleted": false,
-  "gitSyncId": "656f85d9f11fc226f60b1593_656f8df7f11fc226f60b15b2"
+  "gitSyncId": "65709b04094ccf4106514d0e_6570a640094ccf4106514d2a"
 }
